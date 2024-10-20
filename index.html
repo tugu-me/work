@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Movie Ranking Site</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./che.css">
+</head>
+<body class="font-roboto bg-black-600">
+    <!-- Navbar -->
+    <header class="fixed top-0 w-full bg-green-600 text-white shadow-lg z-50">
+        <nav class="container mx-auto p-4 flex justify-between items-center">
+            <h1 class="text-3xl font-bold">MRP</h1>
+            <ul class="flex space-x-6">
+                <li><a href="#home" class="hover:text-blue-200">Home</a></li>
+                <li><a href="#genres" class="hover:text-blue-200">Genres</a></li>
+                <li><a href="#favourites" class="hover:text-blue-200">Favouirrtes</a></li>
+                <li><a href="#top-movies" class="hover:text-blue-200">top-movies</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="pt-16">
+        <!-- Home Section -->
+        <section id="home" class="text-center py-16 bg-white">
+            <h2 class="text-4xl font-bold">My Movie Ranking Site</h2>
+            <p class="mt-4 text-lg"><b><i>An awesome platform for sharing my taste in favorite Movies or Music.</i></b></p>
+            <img src="images_012.jpg" alt="Movie Scene" class="mt-8 w-full h-auto">
+        </section>
+
+        <!-- Genres Section -->
+        <section id="genres" class="py-16 bg-gray-100">
+            <h3 class="text-3xl font-bold text-center">Movie Genres</h3>
+            <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 mt-8">
+            <div>
+                <div class="p-4-auto bg-white shadow-sm text-center" ><img src="action.jpg" alt="Movie Scene" class="mt-auto w-full h-auto">Action</div>
+            </div>
+            <div>
+                <div class="p-4 bg-white shadow-md text-center"><img src="scie.jpg" alt="Movie Scene" class="mt-auto">Sci-fiction</div>
+            </div>
+            <div>
+                <div class="p-4 bg-white shadow-md text-center"><img src="adventure.jpg" alt="Movie Scene" class="mt-auto">Adventure</div>
+            </div>
+            <div>
+                <div class="p-4 bg-white shadow-md text-center"><img src="romance 1.jpg" alt="Movie Scene" class="mt-auto">Romance</div>
+            </div>
+            <div>
+                <div class="p-4-auto bg-white shadow-md text-center"><img src="comedy.jpg" alt="Movie Scene" class="mt-auto">Comedy</div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Top Movies Section -->
+        <section id="top-movies" class="py-16 bg-white">
+            <h3 class="text-3xl font-bold text-center">Top 5 Movies</h3>
+            <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 mt-8">
+                <div class="bg-blue-500 p-4 rounded-lg shadow-lg">
+                    <img src="image1.jpg" alt="Movie 1" class="w-full h-auto 50%-lg">
+                    <h4 class="mt-4 text-xl font-bold">Awaken</h4>
+                    <a href="https://youtube.com/Action" class="text-blue-500 bg-white hover:underline"><button>Watch now</button></a>
+                </div>
+              <div class="bg-blue-500 p-4 rounded-lg shadow-lg">
+                    <img src="scie1.jpg" class="w-full h-auto rounded-lg">
+                    <h5 class="mt-4 text-xl font-bold">Fantacy</h5>
+                    <a href="https://youtube.com/trailer1" class="text-blue-500 bg-white hover:underline"><br>Watch now</a>
+                </div>
+              <div class="bg-blue-500 p-4 rounded-lg shadow-lg">
+                    <img src="images_028.jpg" alt="Movie 3" class="w-full h-auto rounded-lg">
+                    <h6 class="mt-4 text-xl font-bold">Find me</h6>
+                    <a href="https://youtube.com/Adventure" class="text-blue-500 bg-white hover:underline"><br>Watch now</a>
+                </div>
+              <div class="bg-blue-500 p-4 rounded-lg shadow-lg">
+                    <img src="images.jpg" alt="Movie 6" class="w-full h-auto rounded-lg">
+                    <h7 class="mt-4 text-xl font-bold">Fast and Ferious</h7>
+                    <a href="https://youtube.com/drama" class="text-blue-500 bg-white hover:underline"><br>Watch now</a>
+                </div>
+                <div class="bg-blue-500 p-4 rounded-lg shadow-lg">
+                    <img src="romance.jpg" alt="Movie 6" class="w-full h-auto rounded-lg">
+                    <h7 class="mt-4 text-xl font-bold">Romance</h7>
+                    <a href="https://youtube.com/comedy" class="text-blue-500 bg-white hover:underline"><br>Watch now</a>
+                    </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <div class="solid">
+        <div class="work">
+            <label><h2 class="fot">Movie Links</h2></label>
+            <ul>
+                <li><a href="#">MRP home page</a></li>
+                <li><a href="#">MRP latest reviews</a></li>
+                <li><a href="#">Browse Movies</a></li>
+                <li><a href="#">Find new Channel</a></li>
+            </ul>
+             </div>
+        <div class="work">
+            <h8>Contact us</h8> 
+          <li><a href="#facebook" class="hover:text-gray-200">facebook</a></li>
+          <li><a href="#twiter " class="hover:text-gray-200">twiter</a></li>
+          <li><a href="#Whatsapp" class="hover:text-gray-200">Whatsapp</a></li>
+        </div>
+        <div class="work">
+            <label><h2 class="fot">MRP</h2></label>
+            <ul>
+                <li><a href="#">About MRP</a></li>
+                <li><a href="#">Adventure on MRP</a></li>
+                <li><a href="#">Terms of services</a></li>
+                <li><a href="#">Get youtube-data</a></li>
+            </ul>
+            </div>
+            </div>
+        <div class="news">
+            <center><form><label>Subscribe to our Newsletter <input type="email" placeholder="Email" required> <input type="submit" value="submit" class="submit mx-auto text-black"></label></form> </center>
+        </div>
+        <p>&copy; 2024 Movie Ranking films.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/daisyui"></script>
+</body>
+</html>
+
+   

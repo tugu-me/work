@@ -1,0 +1,13 @@
+
+body{
+    background-color: none;
+}
+.solid{
+    display: flex;
+}
+.solid .work{
+    flex-direction: column;
+}
+footer{
+    background-color: green;
+}
